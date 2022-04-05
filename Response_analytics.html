@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Response analytics</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    
+    <!------->
+    <body class="bg-gray-50 ">
+      
+      <!-- component -->
+      <header class=" w-full flex justify-between items-center px-4 bg-white  border-b h-16 sticky top-0 z-10"  >
+        
+        <div class="flex items-center space-x-8">
+          <span class="material-icons text-sky-500 bg-sky-50 p-2 rounded-full " style="font-size:18px;">arrow_back</span>
+          <span class="font-bold lg:mr-14 text-2xl tracking-widest text-blue-500">Plus</span>
+        </div>
+        
+        <div class="flex items-center justify-between py-3">
+          
+          
+          <div class="lg:flex hidden border-r pr-3   items-center relative"><h1 class="text-sm">Eng</h1><span class="material-icons">arrow_drop_down</span>
+          
+        </div>
+        <div class="relative flex items-center ">
+          <button  class="relative block h-8 w-8 ml-2 rounded-full overflow-hidden  focus:outline-none">
+          <img class="h-full w-full object-cover" src="https://4.bp.blogspot.com/-szJiVBCNYq8/XHPIf2urmgI/AAAAAAAAA3Q/rgzjBI6jxFsORJjM0XxQ8kHV5r2wLzipgCEwYBhgL/s1600/IMG_20190225_160623.jpg"
+          alt="Your avatar">
+          </button>
+          <div class="ml-2 lg:flex items-center hidden"><h1 class="text-sm text-gray-700 font-medium">Emmalee Mclain</h1><span class="material-icons">arrow_drop_down</span></div>
+          <!-- dorop for profile -->
+          <div class="bg-white rounded-sm shadow-xl p-4 absolute top-12 right-0 w-44  hidden">
+            <p class="text-gray-500  text-base truncate px-2">Emmalee Mclain</p>
+            <span class="text-sm hover:text-blue-600 text-blue-500 py-2 hover:font-medium block px-2">Logout</span>
+          </div>
+          <!--  -->
+        </div>
+        
+      </div>
+      
+    </header>
+    <!-- header end -->
+    <!--sub nav bar 1 -->
+    <div class="px-4  flex  justify-between items-center bg-white border-b py-4">
+      <div class="flex space-x-2 text-gray-700 w-4/6">
+        <span class="material-icons-outlined -mt-0.5">description</span><h2 class="text-base truncate font-medium"> HappyPlus Team Employee Wellness Survey </h2>
+      </div>
+      <div class="inline-flex items-center">
+        
+        <button class="border border-sky-500 py-2 px-4 text-xs text-sky-500 rounded-full  uppercase  font-medium    ">VIEW CAMPAIGN</button>
+      </div>
+      <!-- end -->
+    </div>
+    <!-- end -->
+    <div class="flex w-full">
+      
+      <!--this is side bar  -->
+      <div class="lg:block hidden lg:relative fixed top-0 left-0  h-screen lg:z-0 z-20 overflow-y-auto overflow-hidden transition duration-300 transform bg-white border-r " style="height: calc(100% - 0rem);" id="customscroll2">
+        <div class="flex items-center ">
+          <div class="flex items-center px-4 py-3 w-16  text-blue-500  justify-center">
+            <span class="material-icons text-gray-500 rounded hover:bg-gray-100 p-1">chevron_right</span>
+          </div>
+          <span class="font-normal ml-4 text-sm text-gray-500">Insight</span>
+          
+        </div>
+        <div class="mb-4 font-medium  "  >
+          <!-- 1 -->
+          <div class="flex items-center hover:bg-blue-50  mr-6 rounded-r-full">
+            <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+              <span class="material-icons text-blue-500  p-2">dashboard</span>
+            </div>
+            <span class=" text-xs text-blue-500">Overview</span>
+          </div>
+          <!-- 2 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">sentiment_satisfied_alt</span>
+            </div>
+            <span class=" text-xs ">Happiness Index</span>
+          </div>
+          <!-- 3 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">emoji_people</span>
+            </div>
+            <span class=" text-xs ">Engagement Index</span>
+          </div>
+          <!-- 4 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">sentiment_very_dissatisfied</span>
+            </div>
+            <span class=" text-xs ">Stress Index</span>
+          </div>
+          <!-- 5 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">manage_accounts</span>
+            </div>
+            <span class=" text-xs ">Manager Index</span>
+          </div>
+          
+          <!-- 6 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">loyalty</span>
+            </div>
+            <span class=" text-xs ">Hope Index</span>
+          </div>
+          
+          <!-- 7 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons p-2">volunteer_activism</span>
+            </div>
+            <span class=" text-xs ">Value Index</span>
+          </div>
+          
+          <!-- 8 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">security</span>
+            </div>
+            <span class=" text-xs ">Safety Index</span>
+          </div>
+          
+          <!-- 9 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">dashboard</span>
+            </div>
+            <span class=" text-xs ">Diversity Index</span>
+          </div>
+          
+          <!-- 10 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">business</span>
+            </div>
+            <span class=" text-xs ">Organization Core</span>
+          </div>
+          
+          <!-- 11 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">engineering</span>
+            </div>
+            <span class=" text-xs ">Manager Insights</span>
+          </div>
+          
+          <!-- 12 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">assessment</span>
+            </div>
+            <span class=" text-xs ">Advance Insights</span>
+          </div>
+          
+          
+          <!-- 13 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">manage_search</span>
+            </div>
+            <span class=" text-xs ">Text Insights</span>
+          </div>
+          
+          <!-- 14 -->
+          <div class="flex items-center hover:bg-blue-50 mr-6 rounded-r-full text-gray-500">
+            <div class="flex items-center px-4 py-4 w-16   h-12 justify-center">
+              <span class="material-icons  p-2">fitness_center</span>
+            </div>
+            <span class=" text-xs ">Strength & Weaknesses</span>
+          </div>
+          
+        </div>
+        
+      </div>
+      <!-- side bar end -->
+      <div class="md:p-6 p-4 space-y-4 w-full flex-1">
+        
+        
+        <div class="flex justify-between text-gray-800 items-center capitalize"> <h1 class="text-lg font-medium ">response analyitics</h1> <span class="material-icons cursor-pointer lg:hidden flex">menu_open</span></div>
+
+              <!--first box  -->
+      <div class="grid  md:grid-cols-3 grid-cols-1  gap-4 ">
+        <!-- box 1 -->
+        <div class=" bg-white flex border ">
+          <div class="bg-green-500 flex items-center"><span class="material-icons text-white px-6" style="font-size:40px;">mark_email_read</span></div>
+          <div class="text-center w-full py-6"><h1 class="text-3xl text-gray-800">1341</h1><p class="lg:text-sm text-xs text-gray-500">Invited</p></div>
+        </div>
+        <!-- box 2 -->
+        <div class=" bg-white flex border ">
+          <div class="bg-yellow-300 flex items-center"><span class="material-icons text-white px-6" style="font-size:40px;">mark_email_read</span></div>
+          <div class="text-center w-full py-6"><h1 class="text-3xl text-gray-800">213</h1><p class="lg:text-sm text-xs text-gray-500">Responded</p></div>
+        </div>
+        <!-- box 3 -->
+        <div class=" bg-white flex border ">
+          <div class="bg-blue-400 flex items-center"><span class="material-icons text-white px-6" style="font-size:40px;">mark_email_read</span></div>
+          <div class="text-center w-full py-6"><h1 class="text-3xl text-gray-800">15.88%</h1><p class="lg:text-sm text-xs text-gray-500">Response Ratio</p></div>
+        </div>
+        
+      </div>
+      <!--  -->
+        <!--sub nav bar 1 -->
+        <div class="  md:flex  justify-between items-center border-b"
+          >
+          <div class="text-xs font-medium flex text-gray-600 whitespace-nowrap overflow-x-auto overflow-hidden space-x-4 tab-scroll">
+            <span class="py-3 block   text-blue-500 border-blue-500  border-b-2">Survey reaponse analytics</span>
+            <span class="py-3 block ">Response demographic Wise Behaviour</span>
+             
+            
+          </div>
+          
+        </div>
+        <!-- end -->
+
+        <div class="flex justify-between text-gray-800 items-center capitalize"> <h1 class="text-lg font-medium "> Overall response</h1></div>
+        <!--sub nav bar 2 -->
+        <div class=" md:flex  justify-between items-center "
+          >
+          <div class="flex gap-2 flex-wrap">
+            
+            <!--  selelect box -->
+            <div class="bg-blue-500 border text-white flex justify-between px-4 items-center relative py-1.5 rounded-full space-x-1.5">
+              <span class="material-icons">filter_list</span>
+              
+              <span class=" text-xs ">Filters</span>
+              <span class=" bg-white bg-opacity-10 rounded-full text-white text-xs w-6 h-6 flex items-center justify-center">3</span>
+              <span class="material-icons ">arrow_drop_down</span>
+              
+            </div>
+            <div class="bg-white text-gray-500    border  flex justify-between px-4 items-center relative py-1.5 rounded-full space-x-1.5">
+              <span class=" text-xs ">Dehli</span>
+              <span class="material-icons ">arrow_drop_down</span>
+            </div>
+            
+            <div class="bg-white text-gray-500    border  flex justify-between px-4 items-center relative py-1.5 rounded-full space-x-1.5">
+              <span class=" text-xs ">Dehli</span>
+              <span class="material-icons ">arrow_drop_down</span>
+            </div>
+            <div class="bg-white text-gray-500    border  flex justify-between px-4 items-center relative py-1.5 rounded-full space-x-1.5">
+              <span class=" text-xs ">Dehli</span>
+              <span class="material-icons ">arrow_drop_down</span>
+            </div>
+          </div>
+          <span class="text-xs font-medium text-blue-500 hidden">Need Help?</span>
+          
+        </div>
+        <!-- end -->
+        
+        
+        <!-- main work-->
+        
+        <!--first box  -->
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-4 ">
+      
+        <!-- box 1 -->
+        <div class="p-4 bg-white border">
+          <h1 class="font-medium text-sm">Toda</h1>
+
+          <div>
+            <div class=" text-gray-500 text-xs space-y-3 py-3 capitalize">
+             <div class="space-y-1">
+               <div class="flex justify-between"> <h1>invited</h1> <p class="text-gray-800 font-medium">6</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-green-500"></div></div>
+             </div>
+
+              <div class="space-y-1">
+               <div class="flex justify-between"> <h1>responded</h1> <p class="text-gray-800 font-medium">6</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-yellow-400"></div></div>
+             </div>
+
+              <div class="space-y-1">
+               <div class="flex justify-between"> <h1>response rate</h1> <p class="text-gray-800 font-medium">100%</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-sky-500"></div></div>
+             </div>
+
+            </div>
+          </div>
+         
+        </div>
+
+            <!-- box 1 -->
+        <div class="p-4 bg-white border">
+          <h1 class="font-medium text-sm">Toda</h1>
+
+          <div>
+            <div class=" text-gray-500 text-xs space-y-3 py-3 capitalize">
+             <div class="space-y-1">
+               <div class="flex justify-between"> <h1>invited</h1> <p class="text-gray-800 font-medium">6</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-green-500"></div></div>
+             </div>
+
+              <div class="space-y-1">
+               <div class="flex justify-between"> <h1>responded</h1> <p class="text-gray-800 font-medium">6</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-yellow-400"></div></div>
+             </div>
+
+              <div class="space-y-1">
+               <div class="flex justify-between"> <h1>response rate</h1> <p class="text-gray-800 font-medium">100%</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-sky-500"></div></div>
+             </div>
+
+            </div>
+          </div>
+         
+        </div>
+
+            <!-- box 1 -->
+        <div class="p-4 bg-white border">
+          <h1 class="font-medium text-sm">Toda</h1>
+
+          <div>
+            <div class=" text-gray-500 text-xs space-y-3 py-3 capitalize">
+             <div class="space-y-1">
+               <div class="flex justify-between"> <h1>invited</h1> <p class="text-gray-800 font-medium">6</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-green-500"></div></div>
+             </div>
+
+              <div class="space-y-1">
+               <div class="flex justify-between"> <h1>responded</h1> <p class="text-gray-800 font-medium">6</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-yellow-400"></div></div>
+             </div>
+
+              <div class="space-y-1">
+               <div class="flex justify-between"> <h1>response rate</h1> <p class="text-gray-800 font-medium">100%</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-sky-500"></div></div>
+             </div>
+
+            </div>
+          </div>
+         
+        </div>
+
+            <!-- box 1 -->
+        <div class="p-4 bg-white border">
+          <h1 class="font-medium text-sm">Toda</h1>
+
+          <div>
+            <div class=" text-gray-500 text-xs space-y-3 py-3 capitalize">
+             <div class="space-y-1">
+               <div class="flex justify-between"> <h1>invited</h1> <p class="text-gray-800 font-medium">6</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-green-500"></div></div>
+             </div>
+
+              <div class="space-y-1">
+               <div class="flex justify-between"> <h1>responded</h1> <p class="text-gray-800 font-medium">6</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-yellow-400"></div></div>
+             </div>
+
+              <div class="space-y-1">
+               <div class="flex justify-between"> <h1>response rate</h1> <p class="text-gray-800 font-medium">100%</p></div>
+              <div class="bg-gray-100 w-full rounded-full h-1.5 overflow-hidden"><div class="h-1.5 w-2/6 bg-sky-500"></div></div>
+             </div>
+
+            </div>
+          </div>
+         
+        </div>
+
+      </div>
+      <!--  -->
+
+      
+      
+    </div>
+  </div>
+  
+  <!-- js -->
+  <script src="js/javascript.js"></script>
+  <!-- js end -->
+  
+  
+</body>
+</html>

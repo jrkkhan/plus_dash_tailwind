@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Surveys</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" integrity="sha256-x8PYmLKD83R9T/sYmJn1j3is/chhJdySyhet/JuHnfY=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons&style=outlined" rel="stylesheet">
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    </head>
+    
+    <!------->
+    <body class="bg-gray-100">
+      <!--this is side bar  -->
+      <div class="fixed  left-0 h-full z-10  bg-white  transition duration-200 transform hover:shadow-lg  sidebar-increse" >
+        <div class="flex items-center  ">
+          <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-16 justify-center">
+            <span class="material-icons text-gray-500 rounded-md bg-gray-100 p-2">menu</span>
+          </div>
+          
+        </div>
+        <div class="py-4 overflow-hidden">
+          <!-- 1 -->
+          <div class="flex items-center rounded  cursor-pointer text-gray-600 text-sm transform scale-100 hover:scale-105 transition duration-100 ease-in-out hover:bg-gray-50">
+            <div class="flex items-center px-4 py-4 w-16  h-12 justify-center">
+              <span class="material-icons   p-2">equalizer</span>
+            </div>
+            <span class="font-medium  ">My Survey</span>
+          </div>
+          <!-- 2 -->
+          <div class="flex items-center  cursor-pointer text-gray-600 transform scale-100 hover:scale-105 transition duration-200 ease-in-out hover:bg-gray-50">
+            <div class="flex items-center px-4 py-4 w-16  h-12 justify-center">
+              <span class="material-icons   p-2">people</span>
+            </div>
+            <span class="font-medium text-sm ">Employees</span>
+          </div>
+          <!-- 3 -->
+          <div class="flex items-center bg-blue-100 cursor-pointer text-blue-600 border-r-2 border-blue-600    ">
+            <div class="flex items-center px-4 py-4 w-16  h-12 justify-center">
+              <span class="material-icons  p-2">people</span>
+            </div>
+            <span class="font-semibold text-sm">My users</span>
+          </div>
+          
+          
+        </div>
+        
+      </div>
+      <!-- side bar end -->
+      
+      <main class="lg:ml-16 h-screen">
+        <!-- component -->
+        <header class=" w-full flex justify-between items-center xl:px-6 lg:px-6 md:px-6 px-4 bg-white  border-b " style="height: 4rem;">
+           
+          <div style="font-family: 'Poppins', sans-serif; " class="   flex items-center space-x-2 z-30 -ml-4 z-20">
+            <p class="capitalize font-bold tracking-tight  text-3xl  text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-pink-500 to-blue-600">plus</p> <p style="font-family: 'Roboto', sans-serif; "  class="text-gray-600 font-normal capitalize text-xl pt-1">dashboard</p></div>
+            
+            <div class="flex items-center justify-between py-3">
+              
+              
+              <div class="lg:flex hidden border-r pr-3 mx-2 items-center "><h1 class="text-sm">Eng</h1><span class="material-icons">arrow_drop_down</span></div>
+              <div class="relative flex items-center ">
+                <button  class="relative block h-10 w-10 ml-2 rounded-full overflow-hidden  focus:outline-none">
+                <img class="h-full w-full object-cover" src="https://4.bp.blogspot.com/-szJiVBCNYq8/XHPIf2urmgI/AAAAAAAAA3Q/rgzjBI6jxFsORJjM0XxQ8kHV5r2wLzipgCEwYBhgL/s1600/IMG_20190225_160623.jpg"
+                alt="Your avatar">
+                </button>
+                <div class="ml-2 lg:flex items-center hidden"><h1 class="text-sm text-gray-700 font-medium">Emmalee Mclain</h1><span class="material-icons">arrow_drop_down</span></div>
+              </div>
+              
+            </div>
+            
+          </header>
+          <!-- header end -->
+          
+          <!-- main work-->
+          <div class=" py-8 mx-auto px-4 h-full overflow-hidden overflow-y-auto" style="height: calc(100% - 4rem);">
+            
+            
+            
+            <div class="md:flex justify-between">
+              
+              <!-- left side -->
+              <div class="flex items-center">
+                <h1 class="text-xl font-medium text-gray-800 ">My Survey</h1>
+                
+                <div class="flex text-blue-500 text-xs items-center ml-2 border-l border-blue-500  pl-2 "><p>Home</p> <span class="material-icons" style="font-size: 12px;">navigate_next</span> <p>My Survey</p></div>
+              </div>
+              <!-- right side -->
+              <div class="flex items-center md:mt-0 mt-4">
+                <div class="flex w-32 justify-between px-4 py-1 bg-white rounded-sm text-xs shadow items-center hidden"><p>Status</p><span class="material-icons text-gray-500">arrow_drop_down</span> </div>
+                <!-- search box -->
+                <div class="w-full flex justify-between bg-white rounded-full text-sm items-center border overflow-hidden">
+                  <input type="text" name="" class="md:w-56 w-full focus:outline-none px-4 py-2" placeholder="Search by survey name...">
+                  <span class="material-icons text-blue-500 p-2  rounded-l-full" style="font-size:1.4rem;">search</span> </div>
+                </div>
+              </div>
+              <!-- end -->
+              <!-- boxes work start -->
+              <div class="grid  xl:grid-cols-5  lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-4 my-6">
+                <!-- box 1 -->
+                <div class="bg-white p-4 rounded-md text-center border-blue-300  border-dashed border-2 flex items-center justify-center cursor-pointer transform scale-100 hover:scale-105 transition duration-500 ease-in-out" >
+                  <div>
+                    <div class="flex justify-center mb-4 "><span class="material-icons text-white bg-blue-500 rounded-full p-8">add</span></div>
+                    <h1 class="text-blue-500 font-medium">Create Survey</h1>
+                    <p class="text-xs text-gray-500">Click to create a new survey</p>
+                  </div>
+                </div>
+                <!-- box 2 -->
+                <div class="bg-white p-4 rounded-md  border capitalize cursor-pointer transform scale-100 hover:scale-105 transition duration-500 ease-in-out space-y-6">
+                  <div class="relative flex justify-between items-start"> <img src="https://logos-download.com/wp-content/uploads/2016/10/icici_bank_logo_symbol.png" class="mr-4 h-4" alt="company_logo">
+                    <span class=" material-icons text-gray-400 hover:text-blue-500 hover:bg-blue-100 rounded-full p-1" style="font-size: 18px;">more_vert
+                      <!-- drop down -->
+                    </span>
+                    <div class="bg-white border shadow-lg absolute right-2  top-6 text-gray-500 z-30 text-xs w-24 overflow-hidden hidden">
+                      <span class=" block px-4 py-2 hover:bg-blue-50 hover:text-blue-500  ">Priview</span>
+                      <span class=" block px-4 py-2 hover:bg-blue-50  hover:text-blue-500 ">Access</span>
+                      <span class=" block px-4 py-2 hover:bg-blue-50 hover:text-blue-500 ">Delete</span>
+                    </div>
+                  </div>
+
+                  <div class="flex h-12 overflow-hidden">
+                    <h1 class="text-gray-800 font-semibold text-sm  ">Hey How are you feeling  
+                    today? <p class="bg-green-100 text-green-500 rounded-full px-2 font-medium py-1 text-xs inline-flex">open</p></h1>
+                  </div>
+
+                  <div class="space-x-6  flex">
+                    <div><p class="text-xs text-gray-500  ">Created date </p>
+                      <p class="text-sm text-black font-medium ">06 jan 2022</p></div>
+                        <div><p class="text-xs text-gray-500  ">Expiry date </p>
+                      <p class="text-sm text-black font-medium ">06 jan 2022</p></div>
+                    
+                  </div>
+                  
+                  <div class="flex justify-between text-gray-400 items-center ">
+                    
+                    <div class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">edit</span>
+                    <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap ">Edit survey</span>
+                  </div>
+                  <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">signal_cellular_alt</span>
+                  <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">Analytics</span>
+                </div>
+                <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">dashboard</span>
+                <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">dashboard</span>
+              </div>
+              <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">send</span>
+              <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">Campaign</span>
+            </div>
+          </div>
+        </div>
+
+          <!-- box 2 -->
+                <div class="bg-white p-4 rounded-md  border capitalize cursor-pointer transform scale-100 hover:scale-105 transition duration-500 ease-in-out space-y-6">
+                  <div class="relative flex justify-between items-start"> <img src="https://logos-download.com/wp-content/uploads/2016/10/icici_bank_logo_symbol.png" class="mr-4 h-4" alt="company_logo">
+                    <span class=" material-icons text-gray-400 hover:text-blue-500 hover:bg-blue-100 rounded-full p-1" style="font-size: 18px;">more_vert
+                      <!-- drop down -->
+                    </span>
+                    <div class="bg-white border shadow-lg absolute right-2  top-6 text-gray-500 z-30 text-xs w-24 overflow-hidden hidden">
+                      <span class=" block px-4 py-2 hover:bg-blue-50 hover:text-blue-500  ">Priview</span>
+                      <span class=" block px-4 py-2 hover:bg-blue-50  hover:text-blue-500 ">Access</span>
+                      <span class=" block px-4 py-2 hover:bg-blue-50 hover:text-blue-500 ">Delete</span>
+                    </div>
+                  </div>
+
+                  <div class="flex h-12 overflow-hidden">
+                    <h1 class="text-gray-800 font-semibold text-sm  ">Hey How are you feeling  
+                    today? <p class="bg-green-100 text-green-500 rounded-full px-2 font-medium py-1 text-xs inline-flex">open</p></h1>
+                  </div>
+
+                  <div class="space-x-6  flex">
+                    <div><p class="text-xs text-gray-500  ">Created date </p>
+                      <p class="text-sm text-black font-medium ">06 jan 2022</p></div>
+                        <div><p class="text-xs text-gray-500  ">Expiry date </p>
+                      <p class="text-sm text-black font-medium ">06 jan 2022</p></div>
+                    
+                  </div>
+                  
+                  <div class="flex justify-between text-gray-400 items-center ">
+                    
+                    <div class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">edit</span>
+                    <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap ">Edit survey</span>
+                  </div>
+                  <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">signal_cellular_alt</span>
+                  <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">Analytics</span>
+                </div>
+                <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">dashboard</span>
+                <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">dashboard</span>
+              </div>
+              <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">send</span>
+              <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">Campaign</span>
+            </div>
+          </div>
+        </div>
+
+          <!-- box 2 -->
+                <div class="bg-white p-4 rounded-md  border capitalize cursor-pointer transform scale-100 hover:scale-105 transition duration-500 ease-in-out space-y-6">
+                  <div class="relative flex justify-between items-start"> <img src="https://logos-download.com/wp-content/uploads/2016/10/icici_bank_logo_symbol.png" class="mr-4 h-4" alt="company_logo">
+                    <span class=" material-icons text-gray-400 hover:text-blue-500 hover:bg-blue-100 rounded-full p-1" style="font-size: 18px;">more_vert
+                      <!-- drop down -->
+                    </span>
+                    <div class="bg-white border shadow-lg absolute right-2  top-6 text-gray-500 z-30 text-xs w-24 overflow-hidden hidden">
+                      <span class=" block px-4 py-2 hover:bg-blue-50 hover:text-blue-500  ">Priview</span>
+                      <span class=" block px-4 py-2 hover:bg-blue-50  hover:text-blue-500 ">Access</span>
+                      <span class=" block px-4 py-2 hover:bg-blue-50 hover:text-blue-500 ">Delete</span>
+                    </div>
+                  </div>
+
+                  <div class="flex h-12 overflow-hidden">
+                    <h1 class="text-gray-800 font-semibold text-sm  ">Hey How are you feeling  
+                    today? <p class="bg-green-100 text-green-500 rounded-full px-2 font-medium py-1 text-xs inline-flex">open</p></h1>
+                  </div>
+
+                  <div class="space-x-6  flex">
+                    <div><p class="text-xs text-gray-500  ">Created date </p>
+                      <p class="text-sm text-black font-medium ">06 jan 2022</p></div>
+                        <div><p class="text-xs text-gray-500  ">Expiry date </p>
+                      <p class="text-sm text-black font-medium ">06 jan 2022</p></div>
+                    
+                  </div>
+                  
+                  <div class="flex justify-between text-gray-400 items-center ">
+                    
+                    <div class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">edit</span>
+                    <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap ">Edit survey</span>
+                  </div>
+                  <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">signal_cellular_alt</span>
+                  <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">Analytics</span>
+                </div>
+                <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">dashboard</span>
+                <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">dashboard</span>
+              </div>
+              <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">send</span>
+              <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">Campaign</span>
+            </div>
+          </div>
+        </div>
+
+          <!-- box 2 -->
+                <div class="bg-white p-4 rounded-md  border capitalize cursor-pointer transform scale-100 hover:scale-105 transition duration-500 ease-in-out space-y-6">
+                  <div class="relative flex justify-between items-start"> <img src="./img/business_line_logo.png" class="mr-4 h-4" alt="company_logo">
+                    <span class=" material-icons text-gray-400 hover:text-blue-500 hover:bg-blue-100 rounded-full p-1" style="font-size: 18px;">more_vert
+                      <!-- drop down -->
+                    </span>
+                    <div class="bg-white border shadow-lg absolute right-2  top-6 text-gray-500 z-30 text-xs w-24 overflow-hidden hidden">
+                      <span class=" block px-4 py-2 hover:bg-blue-50 hover:text-blue-500  ">Priview</span>
+                      <span class=" block px-4 py-2 hover:bg-blue-50  hover:text-blue-500 ">Access</span>
+                      <span class=" block px-4 py-2 hover:bg-blue-50 hover:text-blue-500 ">Delete</span>
+                    </div>
+                  </div>
+
+                  <div class="flex h-12 overflow-hidden">
+                    <h1 class="text-gray-800 font-semibold text-sm  ">Hey How are you feeling  
+                    today? <p class="bg-red-100 text-red-500 rounded-full px-2 font-medium py-1 text-xs inline-flex">Expired</p></h1>
+                  </div>
+
+                  <div class="space-x-6  flex">
+                    <div><p class="text-xs text-gray-500  ">Created date </p>
+                      <p class="text-sm text-black font-medium ">06 jan 2022</p></div>
+                        <div><p class="text-xs text-gray-500  ">Expiry date </p>
+                      <p class="text-sm text-black font-medium ">06 jan 2022</p></div>
+                    
+                  </div>
+                  
+                  <div class="flex justify-between text-gray-400 items-center ">
+                    
+                    <div class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">edit</span>
+                    <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap ">Edit survey</span>
+                  </div>
+                  <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">signal_cellular_alt</span>
+                  <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">Analytics</span>
+                </div>
+                <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">dashboard</span>
+                <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">dashboard</span>
+              </div>
+              <div title="text here" class="relative bg-gray-100 rounded-full w-10 h-10 flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 tooltipshow cursor-pointer"><span class="material-icons" style="font-size: 18px;">send</span>
+              <span class="tooltipcard bg-gray-800 p-2 text-xs absolute -top-10 text-white rounded-md whitespace-nowrap">Campaign</span>
+            </div>
+          </div>
+        </div>
+  
+</div>
+
+<!--end  -->
+</div>
+</main>
+<!--end  -->
+
+<!-- js -->
+<script src="js/javascript.js"></script>
+<!-- js end -->
+
+
+</body>
+</html>

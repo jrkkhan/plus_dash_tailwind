@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Campaigns</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" integrity="sha256-x8PYmLKD83R9T/sYmJn1j3is/chhJdySyhet/JuHnfY=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+            <link type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons&style=outlined" rel="stylesheet">
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        </head>
+        <!------->
+        <body class="bg-gray-100">
+            <!--this is side bar  -->
+            <div class="fixed lg:block hidden left-0 h-full z-30  transition duration-300 transform bg-white overflow-y-auto  overflow-hidden overflow-x-hidden border-r h-increse" id="customscroll"  >
+                <div class="flex items-center border-b">
+                    <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-16 justify-center">
+                        <span class="material-icons text-gray-500 rounded hover:bg-gray-100 p-2">menu</span>
+                    </div>
+                    <span class="font-bold ml-6 text-2xl tracking-widest text-blue-500">Plus</span>
+                    
+                </div>
+                <div class="py-4">
+                    <!-- 1 -->
+                    <div class="flex items-center">
+                        <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                            <span class="material-icons text-blue-500 rounded hover:bg-blue-50 p-2">home</span>
+                        </div>
+                        <span class="font-semibold text-xs text-blue-500">Home</span>
+                    </div>
+                    <!-- 2 -->
+                    <div class="flex items-center">
+                        <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                            <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">equalizer</span>
+                        </div>
+                        <span class="font-medium text-xs text-gray-500">My Survey</span>
+                    </div>
+                    <!-- 3 -->
+                    <div class="flex items-center">
+                        <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                            <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">people</span>
+                        </div>
+                        <span class="font-medium text-xs text-gray-500">Employees</span>
+                    </div>
+                    <!-- 4 -->
+                    <div class="flex items-center">
+                        <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                            <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">event_available</span>
+                        </div>
+                        <span class="font-medium text-xs text-gray-500 w-full">Actions Plan</span>
+                        <span class="material-icons text-gray-500 mr-4" style="font-size: 18px;">expand_more</span>
+                    </div>
+                    <!-- drop list -->
+                    <div class="ml-16 text-xs text-gray-500 hidden">
+                        <span class="block py-1.5 hover:text-blue-500">Heading 1</span>
+                        <span class="block py-1.5 hover:text-blue-500  text-blue-500 font-medium">Heading 2</span>
+                        <span class="block py-1.5 hover:text-blue-500">Heading 3</span>
+                        <span class="block py-1.5 hover:text-blue-500">Heading 4</span>
+                    </div>
+                    <!-- 5 -->
+                    <div class="flex items-center">
+                        <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                            <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">email</span>
+                        </div>
+                        <span class="font-medium text-xs text-gray-500 w-full">Campaigns</span>
+                        <span class="material-icons text-gray-500 mr-4" style="font-size: 18px;">expand_more</span>
+                    </div>
+                    
+                    <!-- drop list -->
+                    <div class="ml-16 text-xs text-gray-500 hidden">
+                        <span class="block py-1.5 hover:text-blue-500">Heading 1</span>
+                        <span class="block py-1.5 hover:text-blue-500  text-blue-500 font-medium">Heading 2</span>
+                        <span class="block py-1.5 hover:text-blue-500">Heading 3</span>
+                        <span class="block py-1.5 hover:text-blue-500">Heading 4</span>
+                    </div>
+                    <!-- 6 -->
+                    <div class="flex items-center">
+                        <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                            <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">stacked_line_chart</span>
+                        </div>
+                        <span class="font-medium text-xs text-gray-500 w-full">Analyze Report</span>
+                        <span class="material-icons text-gray-500 mr-4" style="font-size: 18px;">expand_more</span>
+                    </div>
+                    
+                    <!-- drop list -->
+                    <div class="ml-16 text-xs text-gray-500 hidden">
+                        <span class="block py-1.5 hover:text-blue-500">Heading 1</span>
+                        <span class="block py-1.5 hover:text-blue-500  text-blue-500 font-medium">Heading 2</span>
+                        <span class="block py-1.5 hover:text-blue-500">Heading 3</span>
+                        <span class="block py-1.5 hover:text-blue-500">Heading 4</span>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- side bar end -->
+            
+            <main class="lg:ml-16 h-screen">
+                <!-- component -->
+                <header class=" w-full flex justify-between items-center xl:px-6 lg:px-6 md:px-6 px-4 bg-white  border-b " style="height: 4rem;">
+                    <div class="lg:hidden block"><span class="material-icons text-gray-500 hover:bg-gray-100 p-2 ">menu</span></div>
+                    <div class="flex items-center text-white">
+                        <span class="font-bold lg:mr-14 text-2xl tracking-widest text-blue-500">Plus</span>
+                    </div>
+                    
+                    <div class="flex items-center justify-between py-3">
+                        
+                        
+                        <div class="lg:flex hidden border-r pr-3 mx-2 items-center relative"><h1 class="text-sm">Eng</h1><span class="material-icons">arrow_drop_down</span>
+                        <!-- lang drop down -->
+                        <div class="absolute top-10 right-0 bg-white shadow-xl w-auro  py-1.5 overflow-y-auto h-28 lang hidden">
+                            <span class="block text-xs w-full hover:bg-gray-100 py-1.5 px-3">Chinese</span>
+                            <span class="block text-xs w-full hover:bg-gray-100 py-1.5 px-3">English</span>
+                            <span class="block text-xs w-full hover:bg-gray-100 py-1.5 px-3">Hindi</span>
+                            <span class="block text-xs w-full hover:bg-gray-100 py-1.5 px-3">Japanese</span>
+                            <span class="block text-xs w-full hover:bg-gray-100 py-1.5 px-3">Russian</span>
+                        </div>
+                    </div>
+                    <div class="relative flex items-center ">
+                        <button  class="relative block h-10 w-10 ml-2 rounded-full overflow-hidden  focus:outline-none">
+                        <img class="h-full w-full object-cover" src="https://4.bp.blogspot.com/-szJiVBCNYq8/XHPIf2urmgI/AAAAAAAAA3Q/rgzjBI6jxFsORJjM0XxQ8kHV5r2wLzipgCEwYBhgL/s1600/IMG_20190225_160623.jpg"
+                        alt="Your avatar">
+                        </button>
+                        <div class="ml-2 lg:flex items-center hidden"><h1 class="text-sm text-gray-700 font-medium">Emmalee Mclain</h1><span class="material-icons">arrow_drop_down</span></div>
+                        <!-- dorop for profile -->
+                        <div class="bg-white rounded-sm shadow-xl p-4 absolute top-12 right-0 w-44 hidden">
+                            <p class="text-gray-500  text-base truncate">Emmalee Mclain</p>
+                            <span class="text-sm hover:text-blue-600 text-blue-500 py-2 hover:font-medium block">Logout</span>
+                        </div>
+                        <!--  -->
+                    </div>
+                    
+                </div>
+                
+            </header>
+            <!-- header end -->
+            
+            <!-- main work-->
+            <div class="mx-auto  h-full overflow-hidden overflow-y-auto" style="height: calc(100% - 4rem);">
+                <!--sub nav bar 1 -->
+                <div class=" px-4 xl:flex lg:flex md:flex  justify-between items-center bg-white border-b py-4"
+                    >
+                    <h1 class="text-lg font-medium text-gray-500">HappyPlus Team Employee Wellness Survey</h1>
+                    <div class="inline-flex items-center">
+                        <p class="text-sm mr-1 text-gray-700">Expired on:</p>
+                        <p class="text-sm font-semibold pl-1 text-gray-700">07 Nov, 2020  </p>
+                        <button class="border border-blue-500 py-2 px-4 text-xs text-blue-500 rounded ml-2 ">VIEW CAMPAIGN LIST</button>
+                    </div>
+                </div>
+                <!-- end -->
+                <div class="md:flex justify-between py-4 px-4">
+                    
+                    <!-- left side -->
+                    <div class="flex items-center whitespace-nowrap overflow-x-auto">
+                        <h1 class="text-lg font-medium text-gray-800 ">Create Campaign</h1>
+                        
+                        <div class="flex text-gray-500 text-xs items-center ml-2 border-l border-blue-500  pl-2 "><p>My Survey</p> <span class="material-icons" style="font-size: 12px;">navigate_next</span> <p>Campaigns</p>   </div>
+                    </div>
+                    
+                    <div>
+                        
+                        <!-- serch and button -->
+                        <div class="flex justify-between">
+                            <!--  selelect box -->
+                            <div class="bg-white mx-1.5 w-40 border text-black flex justify-between px-4 items-center relative py-1.5">
+                                
+                                <span class=" text-black text-xs font-semibold pr-4">All</span>
+                                <span class="material-icons text-gray-500">arrow_drop_down</span>
+                                <!-- drop list -->
+                                <div class="absolute top-10 left-0 bg-white shadow-md rounded-md w-full text-gray-500 overflow-hidden hidden">
+                                    <span class="inline-flex items-center py-3 px-4 text-xs w-full border-b hover:bg-gray-100">
+                                    Multiple Choice</span>
+                                    <span class="inline-flex items-center py-3 px-4 text-xs w-full border-b hover:bg-gray-100">
+                                    Check Box</span>
+                                    <span class="inline-flex items-center py-3 px-4 text-xs w-full hover:bg-gray-100">
+                                    Text Box</span>
+                                </div>
+                                <!-- end -->
+                            </div>
+                            <button class="bg-blue-500 text-white px-4 py-2 text-xs rounded">CREATE CAMPAIGN</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- employess list -->
+                <div class="flex mx-4 items-center bg-white px-4 py-2 rounded-md ny-2">
+                    <div><span class="material-icons text-blue-500 bg-blue-100 p-2 rounded-full">mail</span></div>
+                    <div class=" overflow-x-auto whitespace-nowrap w-full ">
+                        <div
+                            class="align-middle inline-block min-w-full overflow-hidden">
+                            <table class="min-w-full">
+                                <thead class="bg-white">
+                                    <tr class="text-left">
+                                        
+                                        <th
+                                            class="px-4 py-1  flex text-left text-sm  leading-4 font-semibold text-gray-800  ">
+                                            <h1>Employee Wellness Survey</h1><span class="bg-green-50 text-green-500 py-1 px-2 rounded-full font-normal mx-2" style="font-size: 10px;">Sent</span></th>
+                                            
+                                            <th
+                                                class="px-4 py-1    text-xs leading-4 font-normal text-gray-500 ">
+                                            Created Date</th>
+                                            <th
+                                                class="px-4 py-1   text-xs leading-4 font-normal text-gray-500 tracking-wider">
+                                            Reach</th>
+                                            <th
+                                                class="px-4 py-1   text-xs leading-4 font-normal text-gray-500 tracking-wider">
+                                            Opened</th>
+                                            <th
+                                                class="px-4 py-1   text-xs leading-4 font-normal text-gray-500 tracking-wider">
+                                            Clicked</th>
+                                            <th
+                                                class="px-4 py-1    text-xs leading-4   font-normal text-gray-500 tracking-wider">
+                                            Conversion</th>
+                                        </tr>
+                                    </thead>
+                                    
+                                    <tbody class="bg-white">
+                                        <tr class="text-left">
+                                            <td class="px-4   whitespace-no-wrap ">
+                                                <div class="flex items-center">
+                                                    <div class="flex-shrink-0 ">
+                                                        
+                                                        
+                                                    </div>
+                                                    
+                                                    <div class="">
+                                                        
+                                                        <div class="text-xs leading-5 text-gray-500">HappyPlus Team</div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            
+                                            
+                                            
+                                            <td class="px-4  whitespace-no-wrap  font-medium text-sm  text-gray-800">
+                                                03 Sep, 2020
+                                            </td>
+                                            
+                                            <td
+                                                class="px-4   whitespace-no-wrap  font-medium text-sm  text-gray-800">
+                                                250
+                                                
+                                            </td>
+                                            <td
+                                                class="px-4   whitespace-no-wrap font-medium text-sm  text-gray-800">
+                                                150
+                                                
+                                            </td>
+                                            <td
+                                                class="px-4   whitespace-no-wrap font-medium text-sm  text-gray-800">
+                                                100
+                                                
+                                            </td>
+                                            <td
+                                                class="px-4 py-1 whitespace-no-wrap font-medium text-sm  text-gray-800">
+                                                150
+                                                
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!--end  -->
+                    
+                    
+                </div>
+            </main>
+            <!--end  -->
+            
+            
+            <!-- warning popup-->
+            <div class="top-0 xl:h-screen h-full  w-full flex justify-center items-center z-40 fixed" style="background: #0000005c;">
+                <div class="bg-white rounded-lg  shadow-sm  xl:w-4/12  lg:w-5/12 md:w-6/12 w-11/12">
+                    <div class="flex justify-between p-4 border-b"> <h2 class="text-base font-semibold text-center test-gray-800 capitalize">export</h2>
+                        <span class="material-icons   font-medium text-gray-500 p-1 bg-gray-100 rounded-full hover:bg-sky-100 transtion duration-150">close</span></div>
+                        <div class="p-4 space-y-4">
+                            <div class="flex   text-sm capitalize space-x-6">
+                                <label class="cursor-pointer flex items-center"><input type="radio" name="" class="mr-2 ">response</label>
+                                <label class="cursor-pointer flex items-center"><input type="radio" name="" class="mr-2 ">Analytics</label>
+                            </div>
+                            <div class=" text-sm text-gray-500 space-y-2">
+                                <p>Range</p>
+                                <div class="border flex justify-between p-2 rounded-lg cursor-pointer">
+                                    <span class="text-black">0-1000</span> <span class="material-icons">arrow_drop_down</span>
+                                </div>
+                            </div>
+                            <div class=" text-sm text-gray-500 space-y-2">
+                                <p>Export as</p>
+                                <div class="border flex justify-between p-2 rounded-lg cursor-pointer">
+                                    <span class="text-black">Pdf</span> <span class="material-icons">arrow_drop_down</span>
+                                </div>
+                            </div>
+                            <button class="bg-sky-500 text-sm p-3 rounded-lg text-white w-full uppercase hover:bg-sky-400 transition duration-150 ">loading...</button>
+                        </div>
+                        
+                        
+
+                        <!--  -->
+                    </div>
+                </div>
+                <!--popup end  -->
+                
+                
+            </body>
+        </html>

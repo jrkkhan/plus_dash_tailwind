@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create campaign</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+            rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        </head>
+        <style type="text/css">
+        </style>
+        <!------->
+        <body class="bg-gray-50 overflow-hidden">
+            <!-- component -->
+            <header class=" w-full flex justify-between items-center px-4 bg-white  border-b h-16 sticky top-0 z-10"  >
+                
+                <div class="flex items-center space-x-8">
+                    <span class="material-icons text-sky-500 bg-sky-50 p-2 rounded-full " style="font-size:18px;">arrow_back</span>
+                    <span class="font-bold lg:mr-14 text-2xl tracking-widest text-blue-500">Plus</span>
+                </div>
+                
+                <div class="flex items-center justify-between py-3">
+                    
+                    
+                    <div class="lg:flex hidden border-r pr-3   items-center relative"><h1 class="text-sm">Eng</h1><span class="material-icons">arrow_drop_down</span>
+                    
+                </div>
+                <div class="relative flex items-center ">
+                    <button  class="relative block h-8 w-8 ml-2 rounded-full overflow-hidden  focus:outline-none">
+                    <img class="h-full w-full object-cover" src="https://4.bp.blogspot.com/-szJiVBCNYq8/XHPIf2urmgI/AAAAAAAAA3Q/rgzjBI6jxFsORJjM0XxQ8kHV5r2wLzipgCEwYBhgL/s1600/IMG_20190225_160623.jpg"
+                    alt="Your avatar">
+                    </button>
+                    <div class="ml-2 lg:flex items-center hidden"><h1 class="text-sm text-gray-700 font-medium">Emmalee Mclain</h1><span class="material-icons">arrow_drop_down</span></div>
+                    <!-- dorop for profile -->
+                    <div class="bg-white rounded-sm shadow-xl p-4 absolute top-12 right-0 w-44  hidden">
+                        <p class="text-gray-500  text-base truncate px-2">Emmalee Mclain</p>
+                        <span class="text-sm hover:text-blue-600 text-blue-500 py-2 hover:font-medium block px-2">Logout</span>
+                    </div>
+                    <!--  -->
+                </div>
+                
+            </div>
+            
+        </header>
+        <!-- header end -->
+        
+        <!--sub nav bar 1 -->
+        <div class="px-4 xl:flex lg:flex  justify-between items-center bg-white border-b py-4">
+            <div class="flex space-x-2 text-gray-700">
+                <span class="material-icons-outlined -mt-0.5">description</span><h2 class="text-base  truncate font-medium"> HappyPlus Team Employee Wellness Survey </h2>
+            </div>
+            <div class="inline-flex items-center">
+                
+                <button class="border border-sky-500 py-2 px-4 text-xs text-sky-500 rounded-full  uppercase  font-medium    ">VIEW CAMPAIGN</button>
+            </div>
+            <!-- end -->
+        </div>
+        <!-- end -->
+        <main class="  w-full">
+            
+            <div class="flex  w-full" style="height: calc(100vh - 8rem);">
+                <!--  -->
+                <!-- form -->
+                <div class="lang h-full bg-white  xl:w-5/12 lg:w-6/12  lg:relative fixed lg:top-0 top-16 shadow w-full lg:z-0 z-10 overflow-y-auto md:block lg:pb-0 pb-16"
+                    >
+                    <h2 class="px-4  py-2 text-xl font-medium ">Create Campaign</h2>
+                    <div class="px-4 py-4 space-y-4">
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Campaign Title</label>
+                            <input type="text" name="title"  class="text-sm text-gray-900 outline-none border p-2 w-full rounded">
+                        </div>
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Subject</label>
+                            <input type="text" name="title"  class="text-sm text-gray-900 outline-none border p-2 w-full rounded">
+                        </div>
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Email Name</label>
+                            <input type="text" name="title"  class="text-sm text-gray-900 outline-none border p-2 w-full rounded">
+                        </div>
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Campaign Type</label>
+                            <div class="border p-2 flex items-center justify-between text-sm text-gray-500 rounded cursor-pointer"> <span>Select</span> <span class="material-icons">arrow_drop_down</span></div>
+                        </div>
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Email Message</label>
+                            <textarea type="text" name="discption" rows="4" class="text-sm text-gray-900 outline-none border-b p-2 border px-2 w-full rounded resize-none"></textarea>
+                        </div>
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Team Name</label>
+                            <input type="text" name="title" class="text-sm text-gray-900 outline-none border p-2 w-full rounded">
+                        </div>
+                        <div class="flex items-end space-x-6">
+                            <div class="space-y-1 w-full">
+                                <label class="text-xs text-gray-500 font-medium">No. of user selected:</label>
+                                <input type="text" name="title"  class="text-sm text-gray-900 outline-none border p-2 w-full rounded">
+                            </div>
+                            <div class="w-40 mb-1.5 whitespace-nowrap">
+                                <label class="capitalize text-gray-500 text-sm cursor-pointer"><input type="checkbox" name="" class="mr-2"> test user</label>
+                            </div>
+                            
+                            
+                        </div>
+                        <button class="p-2 px-3   text-xs text-sky-500 rounded capitalize flex items-center font-medium w-full text-center justify-center">
+                        <span class="material-icons mr-2">add</span> employee</button>
+                        <div class="flex justify-center py-6">
+                            <button class="bg-blue-500 text-white rounded py-3 px-6 text-sm shadow flex items-center uppercase font-medium">Lunch capaign
+                            <span class="material-icons px-2" style="font-size:1.2rem">send</span></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- list -->
+                <div class="w-full  rounded-md md:p-6 p-4 space-y-4 overflow-y-auto">
+                     <h2 class=" text-xl ">Recursive option</h2>
+                     <div class="p-4 bg-white grid md:grid-cols-2 gap-4 capitalize rounded shadow">
+                         <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Recursive Type</label>
+                            <div class="border p-2 flex items-center justify-between text-sm text-gray-500 rounded cursor-pointer"> <span class="text-black">Event</span> <span class="material-icons">arrow_drop_down</span></div>
+                        </div>
+
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Launch Type</label>
+                            <div class="border p-2 flex items-center justify-between text-sm text-gray-500 rounded cursor-pointer"> <span class="text-black">Launch type</span> <span class="material-icons">arrow_drop_down</span></div>
+                        </div>
+
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">launch date</label>
+                            <div class="border p-2 flex items-center justify-between text-sm text-gray-500 rounded cursor-pointer"> <span class="text-black">21, March
+                             2022</span> <span class="material-icons">event</span></div>
+                        </div>
+
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">launch time</label>
+                            <div class="border p-2 flex items-center justify-between text-sm text-gray-500 rounded cursor-pointer"> <span class="text-black">11.30 AM</span> <span class="material-icons">schedule</span></div>
+                        </div>
+
+                        <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Launch frequenncy Type</label>
+                            <input type="number" class="border p-2 flex items-center justify-between text-sm text-black  rounded cursor-pointer w-full focus:outline-none placeholder-black" placeholder="15">   
+                        </div>
+                         <div class="space-y-1">
+                            <label class="text-xs text-gray-500 font-medium">Employee field logic</label>
+                            <div class="border p-2 flex items-center justify-between text-sm text-gray-500 rounded cursor-pointer"> <span class="text-black">Employee</span>  </div>
+                        </div>
+                         
+                     </div>
+
+                    <h2 class=" text-xl ">Employees list</h2>
+                    
+                    
+                    <!-- serch and button -->
+                    <div class="xl:flex justify-between xl:space-y-0 space-y-4">
+                        <div class="flex space-x-2">
+                            <!--  selelect box -->
+                            <div class="bg-blue-500 border text-white flex justify-between px-4 items-center relative py-1.5 rounded-full space-x-1.5">
+                                <span class="material-icons">filter_list</span>
+                                
+                                <span class=" text-xs ">Filters</span>
+                                <span class=" bg-white bg-opacity-10 rounded-full text-white text-xs w-6 h-6 flex items-center justify-center">3</span>
+                                <span class="material-icons ">arrow_drop_down</span>
+                                
+                            </div>
+                            <div class="bg-white text-gray-500    border  flex justify-between px-4 items-center relative py-1.5 rounded-full space-x-1.5">
+                                <span class=" text-xs ">Dehli</span>
+                                <span class="material-icons ">arrow_drop_down</span>
+                            </div>
+                            <div class="bg-white text-gray-500  border  flex justify-between px-4 items-center relative py-1.5 rounded-full space-x-1.5">
+                                <span class=" text-xs ">1008-1000</span>
+                                <span class="material-icons ">arrow_drop_down</span>
+                            </div>
+                        </div>
+                        <div class="flex space-x-4 justify-between">
+                            <div class="bg-white border rounded-full px-2 flex items-center space-x-2 text-gray-500 py-2 md:w-auto w-60">
+                                <span class="material-icons" style="font-size:1.2rem;">search </span>
+                                <input type="" name="" placeholder="Search..." class="text-xs focus:outline-none">
+                            </div>
+                            <button class="p-2 px-4 rounded-full bg-blue-500 text-white text-xs cursor-pointer">Add campaign</button>
+                        </div>
+                        
+                        
+                    </div>
+                    <!-- end -->
+                    
+                    <div class="flex justify-between items-center">
+                        <h1 class="capitalize text-sm text-gray-500 ">current showing :<b class="font-medium text-black"> 83 of 1083</b></h1>
+                        <button class="flex bg-white rounded-full p-2 px-4 border text-gray-500 capitalize text-sm items-center hover:bg-sky-100 ">
+                        <span class="material-icons mr-2" style="font-size:1.2rem;">download</span> export</button>
+                    </div>
+                    <!-- list -->
+                    <div class="flex flex-col  ">
+                        <div class=" overflow-x-auto     ">
+                            <div
+                                class="align-middle inline-block min-w-full overflow-hidden">
+                                <table class="min-w-full whitespace-nowrap">
+                                    <thead>
+                                        <tr class="bg-white">
+                                            <th
+                                                class="px-4 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-black tracking-wider">
+                                                <input type="checkbox" name="list-check" class="mr-4">Name</th>
+                                                <th
+                                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-black tracking-wider">
+                                                Email Address</th>
+                                                <th
+                                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-black tracking-wider">
+                                                Mobile No.</th>
+                                                
+                                                <th
+                                                    class="px-6 py-3 border-b border-gray-200  text-center text-xs leading-4 font-medium text-black tracking-wider">
+                                                Status</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        
+                                        <tbody class="bg-white">
+                                            <tr>
+                                                <td class="px-4 py-4   border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4   border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4   border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    <div class="flex items-center">
+                                                        <div class="flex-shrink-0 ">
+                                                            <input type="checkbox" name="">
+                                                            
+                                                        </div>
+                                                        
+                                                        <div class="ml-4">
+                                                            
+                                                            <div class="text-xs leading-5 text-gray-500">Plus Survey</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
+                                                    
+                                                    <div class="leading-5 text-gray-500 text-xs">example@email.com</div>
+                                                </td>
+                                                
+                                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-xs font-medium text-gray-500">
+                                                    +91 99940111
+                                                </td>
+                                                
+                                                
+                                                
+                                                <td
+                                                    class="px-6 py-4 whitespace-no-wrap  border-b border-gray-200 text-sm leading-5 font-medium text-center">
+                                                    
+                                                    <span
+                                                    class="px-2 py-0.5 inline-flex text-xs  rounded-full bg-green-100 text-green-500">Active</span>
+                                                </td>
+                                            </tr>
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="flex justify-center items-center text-center bg-white p-4 rounded-b-md">
+                                <span class="material-icons w-8 h-8 rounded-full bg-gray-400 inline-flex border border-transparent items-center justify-center mx-1 text-sm text-white" style="font-size: 18px; display: inline-flex;">keyboard_arrow_left</span>
+                                <span class="w-8 h-8 rounded-full bg-blue-500 text-white inline-flex border border-transparent items-center justify-center mx-1 text-sm">1</span>
+                                <span class="w-8 h-8 rounded-full bg-white border  inline-flex  items-center justify-center mx-1 text-sm">2</span>
+                                <span class="w-8 h-8 rounded-full bg-white border inline-flex  items-center justify-center mx-1 text-sm">3</span>
+                                <span class="material-icons w-8 h-8 rounded-full bg-white text-blue-500 border inline-flex  items-center justify-center mx-1 text-sm" style="font-size: 18px; display: inline-flex;">keyboard_arrow_right</span>
+                            </div>
+                        </div>
+                        
+                        <!-- end -->
+                        
+                        
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+            
+            <!-- container end -->
+        </main>
+        <!--end  -->
+        
+        <!-- js -->
+        <script src="js/javascript.js"></script>
+        <!-- js end -->
+        
+        
+    </body>
+</html>

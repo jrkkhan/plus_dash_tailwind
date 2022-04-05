@@ -1,0 +1,328 @@
+@charset "utf-8";
+/*css*/
+ 
+/*all pages*/
+body {
+   font-family: 'Poppins', sans-serif; 
+   height: 100%;
+}
+span{cursor: pointer;}
+button{outline: none; cursor: pointer;}
+
+    
+    .scollar-hide ::-webkit-scrollbar
+    {
+      display: none;
+
+    }
+
+
+.sidebar-increse
+{
+  width: 4rem;
+  transition: width 0.09s;
+
+ 
+}
+
+.sidebar-increse:hover
+{
+  width: 17rem;
+}
+
+/*customscroll3*/
+
+.customscroll4::-webkit-scrollbar {
+            width: 8px;
+            cursor: pointer;
+            /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/
+
+        }
+.customscroll4::-webkit-scrollbar-track {
+            background-color: rgba(229, 231, 235, var(--bg-opacity));
+            background: transparent; 
+            cursor: pointer;
+            /*background: red;*/
+        }
+.customscroll4::-webkit-scrollbar-thumb {
+            cursor: pointer;
+            background-color: #bdbdbd;
+            /*outline: 1px solid slategrey;*/
+        }
+ 
+
+ /*customscroll3*/
+
+.quzlibrarysroll::-webkit-scrollbar {
+            width: 0.1rem;
+            cursor: pointer;
+            /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/
+
+        }
+.quzlibrarysroll::-webkit-scrollbar-track {
+            background-color: rgba(229, 231, 235, var(--bg-opacity));
+            background: #dedede8a; 
+            cursor: pointer;
+            /*background: red;*/
+        }
+.quzlibrarysroll::-webkit-scrollbar-thumb {
+            cursor: pointer;
+            background-color: #9c9c9c87;
+            /*outline: 1px solid slategrey;*/
+        }
+ 
+
+
+/*lang scroller*/
+
+.lang::-webkit-scrollbar {
+            width: 2px;
+            cursor: pointer;
+            /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/
+
+        }
+.lang::-webkit-scrollbar-track {
+            background-color: rgba(229, 231, 235, var(--bg-opacity));
+            background: transparent;
+            cursor: pointer;
+            /*background: red;*/
+        }
+.lang::-webkit-scrollbar-thumb {
+            cursor: pointer;
+            background-color: #f1f1f1;
+            /*outline: 1px solid slategrey;*/
+        }
+
+
+/*tab scrollar*/
+.tab-scroll::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+            cursor: pointer;
+            /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/
+
+        }
+.tab-scroll::-webkit-scrollbar-track {
+            background-color: transparent;
+            background: transparent; 
+            cursor: pointer;
+            /*background: red;*/
+        }
+.tab-scroll::-webkit-scrollbar-thumb {
+            cursor: pointer;
+            background-color: transparent;
+            width: 1px;
+            /*outline: 1px solid slategrey;*/
+        }
+
+
+@media  (max-width: 1400px)
+{
+
+  .sidebar-h
+  {
+    height: calc(100% - 124px);
+   
+  }
+  
+}
+
+
+@media  screen and  (max-width: 768px)
+{
+
+  .sidebar-h
+  {
+    height: calc(100% - 0px);
+    top:0;
+   
+  
+    
+  }
+  
+}
+
+.sidebar-name
+{
+  display: none;
+}
+ 
+
+
+@media only screen and (max-width: 320px)
+{
+  .sm-grid-cols-1
+  {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+}
+  
+ .material-icons {
+  font-size: 16px;  /* Preferred icon size */
+}
+ 
+ .scroll {
+  white-space: nowrap; /* [1] */
+  overflow-x: auto; /* [2] */
+  -webkit-overflow-scrolling: touch; /* [3] */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */ }
+  .scroll::-webkit-scrollbar {
+  display: none; }
+
+
+
+
+
+/*tooltips side bars*/
+
+.tooltiptext {
+  display: none;
+  
+}
+
+
+.tooltiptext::after {
+ content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip:hover .tooltiptext {
+  display: block;
+}
+
+/*tooltip survey card*/
+
+.tooltipcard {
+  display: none;
+  
+}
+
+.tooltipcard::after {
+ content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltipshow:hover .tooltipcard {
+  visibility: visible;
+}
+
+.tooltipshow:hover .tooltipcard {
+  display: block;
+}
+
+ 
+
+
+
+
+
+
+/*customscroll 2*/
+
+#customscroll3::-webkit-scrollbar {
+            width: 4px;
+            cursor: pointer;
+            /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/
+
+        }
+#customscroll3::-webkit-scrollbar-track {
+            background-color: rgba(229, 231, 235, var(--bg-opacity));
+            background: #fff;
+            cursor: pointer;
+            /*background: red;*/
+        }
+#customscroll3::-webkit-scrollbar-thumb {
+            cursor: pointer;
+            background-color: #e8e8e8;
+            /*outline: 1px solid slategrey;*/
+        }
+/*end*/
+
+/*customscroll 2*/
+
+#customscroll2::-webkit-scrollbar {
+            width: 2px;
+            cursor: pointer;
+            /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/
+
+        }
+#customscroll2::-webkit-scrollbar-track {
+            background-color: rgba(229, 231, 235, var(--bg-opacity));
+            background: #fff;
+            cursor: pointer;
+            /*background: red;*/
+        }
+#customscroll2::-webkit-scrollbar-thumb {
+            cursor: pointer;
+            background-color: #f1f1f1;
+            /*outline: 1px solid slategrey;*/
+        }
+/*end*/
+
+  
+#customscroll::-webkit-scrollbar {
+            width: 0px;
+            cursor: pointer;
+            /*background-color: rgba(229, 231, 235, var(--bg-opacity));*/
+
+        }
+#customscroll::-webkit-scrollbar-track {
+            background-color: rgba(229, 231, 235, var(--bg-opacity));
+            background: #f1f1f1;
+            cursor: pointer;
+            /*background: red;*/
+        }
+#customscroll::-webkit-scrollbar-thumb {
+            cursor: pointer;
+            background-color: #bdbdbd;
+            /*outline: 1px solid slategrey;*/
+        }
+
+
+.dropdown:hover > .dropdown-content {
+  display: block;
+ 
+ /*my survey*/
+ .Survey-icon {display: none;}
+
+ .Survey-img:hover + .Survey-icon {display: block;}
+ /*scroll in 425px in edits pages*/
+ .scroll {
+  white-space: nowrap; /* [1] */
+  overflow-x: auto; /* [2] */
+  -webkit-overflow-scrolling: touch; /* [3] */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */ }
+  .scroll::-webkit-scrollbar {
+  display: none; }
+
+
+  .hsixty{height: 62px;}
+  .hsixtycalc {height:calc(100% - 124px); }
+
+
+
+/*sidebar*/
+.sidebar_name_hidden
+{
+  display: none;
+
+}
+
+
+ 
