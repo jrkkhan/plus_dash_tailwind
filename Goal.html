@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Goal Plan</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css" integrity="sha256-x8PYmLKD83R9T/sYmJn1j3is/chhJdySyhet/JuHnfY=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+                rel="stylesheet">
+                
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+            </head>
+            
+            <!------->
+            <body class="bg-gray-100">
+                <!--this is side bar  -->
+                <div class="fixed lg:block hidden left-0 h-full z-30  w-16  transition duration-300 transform bg-white overflow-y-auto  overflow-hidden overflow-x-hidden border-r h-increse " id="customscroll"  >
+                    <div class="flex items-center border-b">
+                        <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-16 justify-center">
+                            <span class="material-icons text-gray-500 rounded hover:bg-gray-100 p-2">menu</span>
+                        </div>
+                        <span class="font-bold ml-6 text-2xl tracking-widest text-blue-500">Plus</span>
+                        
+                    </div>
+                    <div class="py-4">
+                        <!-- 1 -->
+                        <div class="flex items-center">
+                            <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                                <span class="material-icons text-blue-500 rounded hover:bg-blue-50 p-2">home</span>
+                            </div>
+                            <span class="font-semibold text-xs text-blue-500">Home</span>
+                        </div>
+                        <!-- 2 -->
+                        <div class="flex items-center">
+                            <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                                <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">equalizer</span>
+                            </div>
+                            <span class="font-medium text-xs text-gray-500">My Survey</span>
+                        </div>
+                        <!-- 3 -->
+                        <div class="flex items-center">
+                            <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                                <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">people</span>
+                            </div>
+                            <span class="font-medium text-xs text-gray-500">Employees</span>
+                        </div>
+                        <!-- 4 -->
+                        <div class="flex items-center">
+                            <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                                <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">event_available</span>
+                            </div>
+                            <span class="font-medium text-xs text-gray-500 w-full">Actions Plan</span>
+                            <span class="material-icons text-gray-500 mr-4" style="font-size: 18px;">expand_more</span>
+                        </div>
+                        <!-- 5 -->
+                        <div class="flex items-center">
+                            <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                                <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">email</span>
+                            </div>
+                            <span class="font-medium text-xs text-gray-500 w-full">Campaigns</span>
+                            <span class="material-icons text-gray-500 mr-4" style="font-size: 18px;">expand_more</span>
+                        </div>
+                        
+                        <!-- 6 -->
+                        <div class="flex items-center">
+                            <div class="flex items-center px-4 py-4 w-16  text-blue-500 h-12 justify-center">
+                                <span class="material-icons text-gray-500 rounded hover:bg-blue-50 p-2">stacked_line_chart</span>
+                            </div>
+                            <span class="font-medium text-xs text-gray-500 w-full">Analyze Report</span>
+                            <span class="material-icons text-gray-500 mr-4" style="font-size: 18px;">expand_more</span>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+                <!-- side bar end -->
+                
+                <main class="lg:ml-16 h-screen ">
+                    <!-- component -->
+                    <header class=" w-full flex justify-between items-center xl:px-6 lg:px-6 md:px-6 px-4 bg-white  border-b " style="height: 4rem;">
+                        <div class="lg:hidden block"><span class="material-icons text-gray-500 hover:bg-gray-100 p-2 ">menu</span></div>
+                        <div class="flex items-center text-white">
+                            <span class="font-bold lg:mr-14 text-2xl tracking-widest text-blue-500">Plus</span>
+                        </div>
+                        
+                        <div class="flex items-center justify-between py-3">
+                            
+                            
+                            <div class="lg:flex hidden border-r pr-3 mx-2 items-center "><h1 class="text-sm">Eng</h1><span class="material-icons">arrow_drop_down</span></div>
+                            <div class="relative flex items-center ">
+                                <button  class="relative block h-10 w-10 ml-2 rounded-full overflow-hidden  focus:outline-none">
+                                <img class="h-full w-full object-cover" src="https://4.bp.blogspot.com/-szJiVBCNYq8/XHPIf2urmgI/AAAAAAAAA3Q/rgzjBI6jxFsORJjM0XxQ8kHV5r2wLzipgCEwYBhgL/s1600/IMG_20190225_160623.jpg"
+                                alt="Your avatar">
+                                </button>
+                                <div class="ml-2 lg:flex items-center hidden"><h1 class="text-sm text-gray-700 font-medium">Emmalee Mclain</h1><span class="material-icons">arrow_drop_down</span></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </header>
+                    <!-- header end -->
+                    
+                    <!-- main work-->
+                    <div class=" py-8   px-4 h-full overflow-hidden overflow-y-auto space-y-4" style="height: calc(100% - 4rem);">
+                        
+                        
+                        
+                        <div class="flex justify-between">
+                            
+                            <!-- left side -->
+                            <div class="flex items-center">
+                                <h1 class="text-lg font-medium text-gray-800 capitalize ">Goal plan</h1>
+                                <div class="flex text-blue-500 text-xs items-center ml-2 border-l border-blue-500  pl-2 "><p>Home</p> <span class="material-icons" style="font-size: 12px;">navigate_next</span> <p>All users</p></div>
+                            </div>
+                            <!-- right side -->
+                            <div class="md:flex items-center lg:mt-0 mt-4 ">
+                                
+                                    <!-- btn -->
+                                    <button class="bg-sky-500 text-white text-sm flex items-center px-4 py-1.5 rounded-full uppercase cursor-pointer"><span class="material-icons mr-2">add</span> create goal</button>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <!-- end -->
+                            <!-- card work -->
+
+                            <div class="grid grid-cols-4 gap-4">
+                                <!-- card 1 -->
+                                <div class="bg-white shadow-md p-4 rounded-lg space-y-4">
+                                 <div>
+                                        <h1 class="text-lg font-medium
+                                    ">Goal 1</h1>
+                                    <p class="text-gray-500 text-xs capitalize">created date 06 jan 2022</p>
+                                 </div>
+                                    <p class="text-sm text-gray-600">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor  Ut enim ad minim veniam.
+                                     </p>
+                                     <div class="space-y-1.5">
+                                         <div class="flex justify-between text-sm font-medium">
+                                         <p>Task</p> <p>0/2</p>
+                                     </div>
+                                     <div class="h-1 bg-gray-100 rounded-full overflow-hidden"><div class="w-2/6 bg-sky-500 h-1"></div></div>
+
+                                     <p class="capitalize text-xs text-red-400 font-medium">expired in 3 days</p>
+                                     </div>
+
+                                     <div class="flex justify-between items-center text-sky-500"><h1 class="uppercase font-medium text-sm">view tasks</h1>
+                                        <button class="cursor-pointer text-xs uppercase bg-sky-100 rounded-full flex items-center px-2 py-0.5 font-semibold"><span class="material-icons text-lg mr-1">add</span> add task </button></div>
+                                    
+                                </div>
+
+                                 <!-- card 1 -->
+                                <div class="bg-white shadow-md p-4 rounded-lg space-y-4">
+                                 <div>
+                                        <h1 class="text-lg font-medium
+                                    ">Goal 1</h1>
+                                    <p class="text-gray-500 text-xs capitalize">created date 06 jan 2022</p>
+                                 </div>
+                                    <p class="text-sm text-gray-600">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor  Ut enim ad minim veniam.
+                                     </p>
+                                     <div class="space-y-1.5">
+                                         <div class="flex justify-between text-sm font-medium">
+                                         <p>Task</p> <p>0/2</p>
+                                     </div>
+                                     <div class="h-1 bg-gray-100 rounded-full overflow-hidden"><div class="w-2/6 bg-sky-500 h-1"></div></div>
+
+                                     <p class="capitalize text-xs text-red-400 font-medium">expired in 3 days</p>
+                                     </div>
+
+                                     <div class="flex justify-between items-center text-sky-500"><h1 class="uppercase font-medium text-sm">view tasks</h1>
+                                        <button class="cursor-pointer text-xs uppercase bg-sky-100 rounded-full flex items-center px-2 py-0.5 font-semibold"><span class="material-icons text-lg mr-1">add</span> add task </button></div>
+                                    
+                                </div>
+
+                                 <!-- card 1 -->
+                                <div class="bg-white shadow-md p-4 rounded-lg space-y-4">
+                                 <div>
+                                        <h1 class="text-lg font-medium
+                                    ">Goal 1</h1>
+                                    <p class="text-gray-500 text-xs capitalize">created date 06 jan 2022</p>
+                                 </div>
+                                    <p class="text-sm text-gray-600">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor  Ut enim ad minim veniam.
+                                     </p>
+                                     <div class="space-y-1.5">
+                                         <div class="flex justify-between text-sm font-medium">
+                                         <p>Task</p> <p>0/2</p>
+                                     </div>
+                                     <div class="h-1 bg-gray-100 rounded-full overflow-hidden"><div class="w-2/6 bg-sky-500 h-1"></div></div>
+
+                                     <p class="capitalize text-xs text-red-400 font-medium">expired in 3 days</p>
+                                     </div>
+
+                                     <div class="flex justify-between items-center text-sky-500"><h1 class="uppercase font-medium text-sm">view tasks</h1>
+                                        <button class="cursor-pointer text-xs uppercase bg-sky-100 rounded-full flex items-center px-2 py-0.5 font-semibold"><span class="material-icons text-lg mr-1">add</span> add task </button></div>
+                                    
+                                </div>
+
+                                 <!-- card 1 -->
+                                <div class="bg-white shadow-md p-4 rounded-lg space-y-4">
+                                 <div>
+                                        <h1 class="text-lg font-medium
+                                    ">Goal 1</h1>
+                                    <p class="text-gray-500 text-xs capitalize">created date 06 jan 2022</p>
+                                 </div>
+                                    <p class="text-sm text-gray-600">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor  Ut enim ad minim veniam.
+                                     </p>
+                                     <div class="space-y-1.5">
+                                         <div class="flex justify-between text-sm font-medium">
+                                         <p>Task</p> <p>0/2</p>
+                                     </div>
+                                     <div class="h-1 bg-gray-100 rounded-full overflow-hidden"><div class="w-2/6 bg-sky-500 h-1"></div></div>
+
+                                     <p class="capitalize text-xs text-red-400 font-medium">expired in 3 days</p>
+                                     </div>
+
+                                     <div class="flex justify-between items-center text-sky-500"><h1 class="uppercase font-medium text-sm">view tasks</h1>
+                                        <button class="cursor-pointer text-xs uppercase bg-sky-100 rounded-full flex items-center px-2 py-0.5 font-semibold"><span class="material-icons text-lg mr-1">add</span> add task </button></div>
+                                    
+                                </div>
+
+                                
+                            </div>
+                        </main>
+                        <!--end  -->
+                        
+                        <!-- js -->
+                        <script src="js/javascript.js"></script>
+                        <!-- js end -->
+                        
+                        
+                    </body>
+                </html>
